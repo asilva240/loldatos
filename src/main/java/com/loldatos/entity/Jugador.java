@@ -47,7 +47,7 @@ public class Jugador {
 
     public Jugador() {}
 
-    // getters/setters
+    // getters/setterss
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
