@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+          http://www.liquibase.org/xml/ns/dbchangelog
+          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.23.xsd">
+
+    <changeSet id="002-create-jugador" author="aSilva">
+        <createTable tableName="jugador">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+
+            <column name="nombre" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="apellidos" type="VARCHAR(150)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="nick" type="VARCHAR(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+
+            <column name="nacionalidad" type="VARCHAR(50)"/>
+
+            <column name="fecha_nacimiento" type="DATE"/>
+
+            <column name="liga" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="equipo_id" type="BIGINT"/>
+        </createTable>
+
+        <!-- 2) Índice (mejora queries por equipo) -->
+        <createIndex tableName="jugador" indexName="idx_jugador_equipo_id">
+            <column name="equipo_id"/>
+        </createIndex>
+
+        <!-- 3) Foreign key -->
+        <addForeignKeyConstraint
+                baseTableName="jugador"
+                baseColumnNames="equipo_id"
+                referencedTableName="equipo"
+                referencedColumnNames="id"
+                constraintName="fk_jugador_equipo"
+                onDelete="RESTRICT"
+                onUpdate="CASCADE"/>
+    </changeSet>
+
+</databaseChangeLog>

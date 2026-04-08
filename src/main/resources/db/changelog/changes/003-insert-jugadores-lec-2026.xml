@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet id="2026-01-04-02-insert-jugadores-lec-2026" author="aSilva">
+
+        <!-- ===== G2 Esports ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Sergen"/>
+            <column name="apellidos" value="Çelik"/>
+            <column name="nick" value="BrokenBlade"/>
+            <column name="nacionalidad" value="Germany/Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2000-01-19"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Rudy"/>
+            <column name="apellidos" value="Semaan"/>
+            <column name="nick" value="SkewMond"/>
+            <column name="nacionalidad" value="France/Lebanon"/>
+            <column name="fecha_nacimiento" valueDate="2004-08-09"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Rasmus"/>
+            <column name="apellidos" value="Borregaard Winther"/>
+            <column name="nick" value="Caps"/>
+            <column name="nacionalidad" value="Denmark"/>
+            <column name="fecha_nacimiento" valueDate="1999-11-17"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Steven"/>
+            <column name="apellidos" value="Liv"/>
+            <column name="nick" value="Hans Sama"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="fecha_nacimiento" valueDate="1999-09-02"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Labros"/>
+            <column name="apellidos" value="Papoutsakis"/>
+            <column name="nick" value="Labrov"/>
+            <column name="nacionalidad" value="Greece"/>
+            <column name="fecha_nacimiento" valueDate="2002-02-12"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="1"/>
+        </insert>
+
+        <!-- ===== Fnatic ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Panagiotis"/>
+            <column name="apellidos" value="Tantis"/>
+            <column name="nick" value="Empyros"/>
+            <column name="nacionalidad" value="Greece"/>
+            <column name="fecha_nacimiento" valueDate="2004-04-01"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Iván"/>
+            <column name="apellidos" value="Martín Díaz"/>
+            <column name="nick" value="Razork"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="fecha_nacimiento" valueDate="2000-10-07"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Vladimiros"/>
+            <column name="apellidos" value="Kourtidis"/>
+            <column name="nick" value="Vladi"/>
+            <column name="nacionalidad" value="Greece"/>
+            <column name="fecha_nacimiento" valueDate="2005-08-12"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Elias"/>
+            <column name="apellidos" value="Lipp"/>
+            <column name="nick" value="Upset"/>
+            <column name="nacionalidad" value="Germany"/>
+            <column name="fecha_nacimiento" valueDate="1999-12-16"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Park"/>
+            <column name="apellidos" value="Joon-hyeong"/>
+            <column name="nick" value="Lospa"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2002-09-30"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="2"/>
+        </insert>
+
+        <!-- ===== Karmine Corp ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Kim"/>
+            <column name="apellidos" value="Chang-dong"/>
+            <column name="nick" value="Canna"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2000-02-11"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Martin"/>
+            <column name="apellidos" value="Sundelin"/>
+            <column name="nick" value="Yike"/>
+            <column name="nacionalidad" value="Sweden/Peru"/>
+            <column name="fecha_nacimiento" valueDate="2000-11-11"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Kang"/>
+            <column name="apellidos" value="Ye-hoo"/>
+            <column name="nick" value="kyeahoo"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2005-08-13"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Caliste"/>
+            <column name="apellidos" value="Henry-Hennebert"/>
+            <column name="nick" value="Caliste"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="fecha_nacimiento" valueDate="2006-08-28"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Alan"/>
+            <column name="apellidos" value="Cwalina"/>
+            <column name="nick" value="Busio"/>
+            <column name="nacionalidad" value="United States/Poland"/>
+            <column name="fecha_nacimiento" valueDate="2003-10-22"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="3"/>
+        </insert>
+
+        <!-- ===== Natus Vincere ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Volodymyr"/>
+            <column name="apellidos" value="Sorokin"/>
+            <column name="nick" value="Maynter"/>
+            <column name="nacionalidad" value="Ukraine"/>
+            <column name="fecha_nacimiento" valueDate="2000-12-15"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Enes"/>
+            <column name="apellidos" value="Uçan"/>
+            <column name="nick" value="Rhilech"/>
+            <column name="nacionalidad" value="Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2005-10-15"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Yoon"/>
+            <column name="apellidos" value="Sung-won"/>
+            <column name="nick" value="Poby"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2006-02-07"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Lee"/>
+            <column name="apellidos" value="Jae-hoon"/>
+            <column name="nick" value="SamD"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2001-03-14"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Polat Furkan"/>
+            <column name="apellidos" value="Çiçek"/>
+            <column name="nick" value="Parus"/>
+            <column name="nacionalidad" value="Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2003-02-22"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="4"/>
+        </insert>
+
+        <!-- ===== Movistar KOI ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Alex Pastor"/>
+            <column name="apellidos" value="Villarejo"/>
+            <column name="nick" value="Myrwn"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="fecha_nacimiento" valueDate="2003-06-13"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Javier"/>
+            <column name="apellidos" value="Prades Batalla"/>
+            <column name="nick" value="Elyoya"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="fecha_nacimiento" valueDate="2000-03-13"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Joseph Joon"/>
+            <column name="apellidos" value="Pyun"/>
+            <column name="nick" value="Jojopyun"/>
+            <column name="nacionalidad" value="Canada/South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2004-10-01"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="David Martinez"/>
+            <column name="apellidos" value="Garcia"/>
+            <column name="nick" value="Supa"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="fecha_nacimiento" valueDate="2000-10-23"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Álvaro"/>
+            <column name="apellidos" value="Fernández del Amo"/>
+            <column name="nick" value="Alvaro"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="fecha_nacimiento" valueDate="2003-07-15"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="5"/>
+        </insert>
+
+        <!-- ===== GIANTX ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Eren"/>
+            <column name="apellidos" value="Yıldız"/>
+            <column name="nick" value="Lot"/>
+            <column name="nacionalidad" value="Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2004-01-02"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Ismaïl"/>
+            <column name="apellidos" value="Boualem"/>
+            <column name="nick" value="ISMA"/>
+            <column name="nacionalidad" value="France/Belgium"/>
+            <column name="fecha_nacimiento" valueDate="2001-06-20"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Adam"/>
+            <column name="apellidos" value="Jeřábek"/>
+            <column name="nick" value="Jackies"/>
+            <column name="nacionalidad" value="Czech Republic"/>
+            <column name="fecha_nacimiento" valueDate="2004-10-06"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Oh"/>
+            <column name="apellidos" value="Hyeon-taek"/>
+            <column name="nick" value="Noah"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2001-10-04"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Yoon"/>
+            <column name="apellidos" value="Se-jun"/>
+            <column name="nick" value="Jun"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2000-08-02"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="6"/>
+        </insert>
+
+        <!-- ===== SK Gaming ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Martin"/>
+            <column name="apellidos" value="Nordahl Hansen"/>
+            <column name="nick" value="Wunder"/>
+            <column name="nacionalidad" value="Denmark"/>
+            <column name="fecha_nacimiento" valueDate="1998-11-09"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Duncan"/>
+            <column name="apellidos" value="Marquet"/>
+            <column name="nick" value="Skeanz"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="fecha_nacimiento" valueDate="2000-09-25"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Adam"/>
+            <column name="apellidos" value="Ilyasov"/>
+            <column name="nick" value="LIDER"/>
+            <column name="nacionalidad" value="Norway"/>
+            <column name="fecha_nacimiento" valueDate="1999-07-03"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Josip"/>
+            <column name="apellidos" value="Čančar"/>
+            <column name="nick" value="Jopa"/>
+            <column name="nacionalidad" value="Croatia"/>
+            <column name="fecha_nacimiento" valueDate="2003-11-03"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="7"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Mihael"/>
+            <column name="apellidos" value="Mehle"/>
+            <column name="nick" value="Mikyx"/>
+            <column name="nacionalidad" value="Slovenia"/>
+            <column name="fecha_nacimiento" valueDate="1998-11-02"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="7"/>
+        </insert>
+
+        <!-- ===== Team BDS ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Shin"/>
+            <column name="apellidos" value="Yun-hwan"/>
+            <column name="nick" value="Rooster"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2005-04-28"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Mehdi"/>
+            <column name="apellidos" value="Lahlou"/>
+            <column name="nick" value="Boukada"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="fecha_nacimiento" valueDate="2002-10-01"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Ilias"/>
+            <column name="apellidos" value="Bizriken"/>
+            <column name="nick" value="nuc"/>
+            <column name="nacionalidad" value="France/Morocco"/>
+            <column name="fecha_nacimiento" valueDate="2002-10-17"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Park"/>
+            <column name="apellidos" value="Seok-hyeon"/>
+            <column name="nick" value="Paduck"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2005-02-12"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="8"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Adrian"/>
+            <column name="apellidos" value="Trybus"/>
+            <column name="nick" value="Trymbi"/>
+            <column name="nacionalidad" value="Poland"/>
+            <column name="fecha_nacimiento" valueDate="2000-10-20"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="8"/>
+        </insert>
+
+        <!-- ===== Team Heretics ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Sebastian"/>
+            <column name="apellidos" value="Wojtoń"/>
+            <column name="nick" value="Tracyn"/>
+            <column name="nacionalidad" value="Poland"/>
+            <column name="fecha_nacimiento" valueDate="2005-09-16"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Théo"/>
+            <column name="apellidos" value="Borile"/>
+            <column name="nick" value="Sheo"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="fecha_nacimiento" valueDate="2001-07-05"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Tolga"/>
+            <column name="apellidos" value="Ölmez"/>
+            <column name="nick" value="Serin"/>
+            <column name="nacionalidad" value="Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2002-04-10"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Yoon"/>
+            <column name="apellidos" value="Sang-hoon"/>
+            <column name="nick" value="Ice"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueDate="2001-04-09"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="9"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Han"/>
+            <column name="apellidos" value="Kil"/>
+            <column name="nick" value="Way"/>
+            <column name="nacionalidad" value="South Korea"/>
+            <column name="fecha_nacimiento" valueComputed="NULL"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="9"/>
+        </insert>
+
+        <!-- ===== Team Vitality ===== -->
+        <insert tableName="jugador">
+            <column name="nombre" value="Kaan"/>
+            <column name="apellidos" value="Okan"/>
+            <column name="nick" value="Naak Nako"/>
+            <column name="nacionalidad" value="Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2005-03-24"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="10"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Linas"/>
+            <column name="apellidos" value="Nauncikas"/>
+            <column name="nick" value="Lyncas"/>
+            <column name="nacionalidad" value="Lithuania"/>
+            <column name="fecha_nacimiento" valueDate="2003-12-10"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="10"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Marek"/>
+            <column name="apellidos" value="Brázda"/>
+            <column name="nick" value="Humanoid"/>
+            <column name="nacionalidad" value="Czech Republic"/>
+            <column name="fecha_nacimiento" valueDate="2000-03-14"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="10"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Matyáš"/>
+            <column name="apellidos" value="Orság"/>
+            <column name="nick" value="Carzzy"/>
+            <column name="nacionalidad" value="Czech Republic"/>
+            <column name="fecha_nacimiento" valueDate="2002-01-31"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="10"/>
+        </insert>
+        <insert tableName="jugador">
+            <column name="nombre" value="Kadir"/>
+            <column name="apellidos" value="Kemiksiz"/>
+            <column name="nick" value="Fleshy"/>
+            <column name="nacionalidad" value="Turkey"/>
+            <column name="fecha_nacimiento" valueDate="2000-11-24"/>
+            <column name="liga" value="LEC"/>
+            <column name="equipo_id" valueNumeric="10"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

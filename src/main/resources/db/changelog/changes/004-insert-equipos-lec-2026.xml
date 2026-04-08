@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="2026-01-04-01-insert-equipos-lec-2026" author="aSilva">
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="1"/>
+            <column name="nombre" value="G2 Esports"/>
+            <column name="nacionalidad" value="Europe"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="2"/>
+            <column name="nombre" value="Fnatic"/>
+            <column name="nacionalidad" value="Europe"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="3"/>
+            <column name="nombre" value="Karmine Corp"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="4"/>
+            <column name="nombre" value="Natus Vincere"/>
+            <column name="nacionalidad" value="Ukraine"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="5"/>
+            <column name="nombre" value="Movistar KOI"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="6"/>
+            <column name="nombre" value="GIANTX"/>
+            <column name="nacionalidad" value="Europe"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="7"/>
+            <column name="nombre" value="SK Gaming"/>
+            <column name="nacionalidad" value="Germany"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="8"/>
+            <column name="nombre" value="Team BDS"/>
+            <column name="nacionalidad" value="Switzerland"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="9"/>
+            <column name="nombre" value="Team Heretics"/>
+            <column name="nacionalidad" value="Spain"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+        <insert tableName="equipo">
+            <column name="id" valueNumeric="10"/>
+            <column name="nombre" value="Team Vitality"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="liga" value="LEC"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
