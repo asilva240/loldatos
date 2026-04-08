@@ -50,7 +50,7 @@
         </insert>
         <insert tableName="equipo">
             <column name="id" valueNumeric="8"/>
-            <column name="nombre" value="Team BDS"/>
+            <column name="nombre" value="Swifters"/>
             <column name="nacionalidad" value="Switzerland"/>
             <column name="liga" value="LEC"/>
         </insert>
