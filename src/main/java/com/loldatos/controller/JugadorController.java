@@ -22,7 +22,7 @@ public class JugadorController {
     }
 
     @GetMapping("/equipo")
-    public List<JugadorDto> getJugadoresEquipo(Long equipoId) {
+    public List<JugadorDto> getJugadoresEquipo(@RequestParam Long equipoId) {
         return jugadorService.findJugadoresEquipo(equipoId);
     }
 }

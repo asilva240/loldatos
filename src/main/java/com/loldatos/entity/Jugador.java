@@ -31,7 +31,7 @@ public class Jugador {
     private String nacionalidad;
 
     @Column(name = "fecha_nacimiento")
-    private Date fechaNamimiento;
+    private Date fechaNacimiento;
 
     @Column(name = "liga", nullable = false, length = 50)
     private String liga;
@@ -63,12 +63,12 @@ public class Jugador {
     public String getNacionalidad() { return nacionalidad; }
     public void setNacionalidad(String nacionalidad) { this.nacionalidad = nacionalidad; }
 
-    public Date getFechaNamimiento() {
-        return fechaNamimiento;
+    public Date getFechaNacimiento() {
+        return fechaNacimiento;
     }
 
-    public void setFechaNamimiento(Date fechaNamimiento) {
-        this.fechaNamimiento = fechaNamimiento;
+    public void setFechaNacimiento(Date fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
     }
 
     public String getLiga() { return liga; }
