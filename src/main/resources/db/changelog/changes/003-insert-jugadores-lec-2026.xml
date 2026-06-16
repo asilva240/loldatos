@@ -420,11 +420,11 @@
             <column name="equipo_id" valueNumeric="9"/>
         </insert>
         <insert tableName="jugador">
-            <column name="nombre" value="Han"/>
-            <column name="apellidos" value="Kil"/>
-            <column name="nick" value="Way"/>
-            <column name="nacionalidad" value="South Korea"/>
-            <column name="fecha_nacimiento" valueComputed="NULL"/>
+            <column name="nombre" value="Paul"/>
+            <column name="apellidos" value="Lardin"/>
+            <column name="nick" value="Stend"/>
+            <column name="nacionalidad" value="France"/>
+            <column name="fecha_nacimiento" valueDate="2001-07-13"/>
             <column name="liga" value="LEC"/>
             <column name="equipo_id" valueNumeric="9"/>
         </insert>
