@@ -10,5 +10,6 @@
     <include file="db/changelog/changes/002-create-jugador.xml"/>
     <include file="db/changelog/changes/004-insert-equipos-lec-2026.xml"/>
     <include file="db/changelog/changes/003-insert-jugadores-lec-2026.xml"/>
+    <include file="db/changelog/changes/005-update-logos-equipos-lec.xml"/>
 
 </databaseChangeLog>

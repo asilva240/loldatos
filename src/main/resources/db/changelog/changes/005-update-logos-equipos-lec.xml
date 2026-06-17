@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="2026-06-16-01-update-logos-equipos-lec" author="aSilva">
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/4/4b/G2_Esports_2020_lightmode.png"/>
+            <where>id = 1</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/f/f9/Fnatic_2020_allmode.png"/>
+            <where>id = 2</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/d/d1/Karmine_Corp_allmode.png"/>
+            <where>id = 3</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png"/>
+            <where>id = 4</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/6/6c/Movistar_KOI_2025_allmode.png"/>
+            <where>id = 5</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/2/2d/GIANTX_lightmode.png"/>
+            <where>id = 6</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/6/6d/SK_Gaming_2022_lightmode.png"/>
+            <where>id = 7</where>
+        </update>
+        <update tableName="equipo">
+            <column name="nombre" value="Shifters"/>
+            <column name="logo" value="https://liquipedia.net/commons/images/e/e2/Shifters_allmode.png"/>
+            <where>id = 8</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/a/a9/Team_Heretics_2024_allmode.png"/>
+            <where>id = 9</where>
+        </update>
+        <update tableName="equipo">
+            <column name="logo" value="https://liquipedia.net/commons/images/4/4f/Team_Vitality_2026_full_allmode.png"/>
+            <where>id = 10</where>
+        </update>
+    </changeSet>
+
+</databaseChangeLog>
